@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="output.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Instagram Clone</title>
 </head>
+
 <body>
-  
+  <!-- navbar -->
+  <nav class="border-b bg-white py-2">
+    <div class="flex justify-around">
+      <!-- logo -->
+      <img class="h-7 w-20" src="./img/Instagram_logo.svg.png" alt="">
+
+      <div class="text-gray-500 hidden relative md:block">
+        <!-- search -->
+        <input class="outline-none border hover:border-gray-400 bg-gray-100 rounded ml-2 px-6" type="search">
+        <i class="fa fa-search absolute left-0 px-1 ml-2 mt-1"></i>
+      </div>
+
+      <div class="space-x-2">
+        <!-- auth buttons -->
+        <a href="#" class="inline-block bg-blue-500 text-white font-semibold px-2 py-1 rounded text-sm">Log In</a>
+        <a href="#" class="inline-block text-blue-500 font-semibold text-sm">Sign Up</a>
+      </div>
+
+    </div>
+  </nav>
 </body>
+
 </html>
